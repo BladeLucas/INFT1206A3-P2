@@ -7,11 +7,20 @@ html {
 .box {
     width: 200px;
     padding: 100px;
-    border: 5px solid black;
+    border: 1px solid rgb(182, 7, 7);
+    border-radius: 25px;
     text-align: center;
     margin: auto;
     font-size: 1.5rem;
     background-color: red;
     text-shadow: 2px 2px 3px black;
     color: white;
+    background-image: linear-gradient(
+    to bottom,
+    rgb(0 0 0 / 0%),
+    rgb(0 0 0 / 30%));
+    box-shadow:
+    1px 1px 1px black,
+    inset 2px 3px 5px rgb(0 0 0 / 30%),
+    inset -2px -3px 5px rgba(0, 0, 0, 1.5);
 }
